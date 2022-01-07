@@ -5,7 +5,7 @@ const display = ({inputBin, decNum}) => {
 		<div>
 			{!inputBin.binary ? (
 				<p className="info">
-					Waiting for a valid binary number...
+					Aguardando por um número binário valido...
 				</p>
 			) : (
 				<p>{decNum}</p>
